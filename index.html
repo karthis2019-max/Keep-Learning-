@@ -37,10 +37,50 @@
         /* Animated Background */
 
         .background-glow {
-            position: fixed;
-            width: 700px;
-            height: 700px;
-            background: radial-gradient(circle, rgba(77,124,255,0.18) 0%, rgba(0,0,0,0) 70%);
+
+position:fixed;
+
+width:700px;
+height:700px;
+
+background:
+
+radial-gradient(
+
+circle,
+
+rgba(
+55,
+90,
+180,
+0.12
+)
+
+0%,
+
+rgba(
+0,
+0,
+0,
+0
+)
+
+70%
+
+);
+
+top:-200px;
+right:-200px;
+
+z-index:-1;
+
+animation:
+floatGlow
+8s
+ease-in-out
+infinite;
+
+}
             top: -200px;
             right: -200px;
             z-index: -1;
@@ -74,7 +114,14 @@
             top: 0;
 
             backdrop-filter: blur(12px);
-            background: rgba(11, 15, 25, 0.65);
+          background:
+
+rgba(
+8,
+13,
+24,
+0.92
+);
 
             border-bottom: 1px solid rgba(255,255,255,0.06);
 
@@ -171,7 +218,8 @@
         }
 
         .dashboard-title {
-            color: white;
+            color:
+#f2f4f7;
             font-weight: 600;
             margin-bottom: 4px;
             font-size: 15px;
@@ -198,8 +246,6 @@ padding:
             align-items: center;
 
             text-align: center;
-
-            padding: 80px 7%;
         }
 
         .hero-badge {
@@ -234,7 +280,19 @@ max-width:
 
             margin-bottom: 24px;
 
-            background: linear-gradient(135deg, #ffffff, #8ea8ff);
+          background:
+
+linear-gradient(
+
+135deg,
+
+#ffffff,
+
+#bfc9dc,
+
+#7e8ea8
+
+);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 
@@ -244,7 +302,7 @@ max-width:
         .hero p {
             max-width: 760px;
 
-            color: #9ca3af;
+            color: #b1bccd;
 
             font-size: 20px;
             line-height: 1.7;
@@ -281,15 +339,50 @@ max-width:
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #4d7cff, #7a5cff);
-            color: white;
 
-            box-shadow: 0px 10px 30px rgba(77,124,255,0.35);
+background:
+
+linear-gradient(
+
+135deg,
+
+#304c7a,
+
+#50698f
+
+);
+
+color:white;
+
+box-shadow:
+
+0px
+10px
+30px
+
+rgba(
+80,
+105,
+143,
+0.25
+);
+
         }
 
         .btn-primary:hover {
             transform: translateY(-3px) scale(1.02);
-            box-shadow: 0px 14px 40px rgba(77,124,255,0.45);
+           box-shadow:
+
+0px
+14px
+40px
+
+rgba(
+80,
+105,
+143,
+0.25
+);
         }
 
         .btn-secondary {
@@ -312,13 +405,27 @@ max-width:
         .dashboard-card {
             position: relative;
 
-            border-radius: 28px;
+            border-radius: 12px;
 
             overflow: hidden;
 
-            background: rgba(255,255,255,0.04);
+            background:
 
-            border: 1px solid rgba(255,255,255,0.06);
+rgba(
+17,
+25,
+40,
+0.65
+);
+
+            border:
+
+1px solid rgba(
+255,
+255,
+255,
+0.04
+);
 
             backdrop-filter: blur(18px);
 
@@ -339,7 +446,7 @@ max-width:
             position: absolute;
             top: 20px;
             right: 20px;
-            color: #9ca3af;
+            color: #b1bccd;
             font-size: 14px;
             z-index: 5;
         }
@@ -378,9 +485,23 @@ gap:32px;
 
             border-radius: 24px;
 
-            background: rgba(255,255,255,0.04);
+        background:
 
-            border: 1px solid rgba(255,255,255,0.06);
+rgba(
+17,
+25,
+40,
+0.65
+);
+
+           border:
+
+1px solid rgba(
+255,
+255,
+255,
+0.04
+);
 
             transition: 0.3s ease;
 
@@ -418,7 +539,7 @@ rgba(
         }
 
         .info-card p {
-            color: #a6adbb;
+            color: #b1bccd;
             line-height: 1.8;
             font-size: 16px;
         }
@@ -485,7 +606,7 @@ rgba(
     <nav class="navbar">
 
         <div class="logo">
-            Karthik Analytics
+            KS Analytics
         </div>
 
         <div class="nav-links">

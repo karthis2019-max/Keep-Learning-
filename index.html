@@ -477,7 +477,27 @@ transform: none;
         .content {
             padding: 0 7% 120px;
         }
+.overview-grid {
 
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    gap: 32px;
+
+    align-items: start;
+
+}
+
+@media (max-width: 900px) {
+
+    .overview-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
        .content-grid {
 
 display:grid;
@@ -798,7 +818,7 @@ font-weight:
 
 <section class="content" id="overview">
 
-<div class="content-grid">
+<div class="overview-grid">
 
 
 <div class="info-card">
@@ -828,15 +848,15 @@ Key Focus Areas
 
 <p>
 
-• Injury trend analysis<br><br>
+Injury Trend Analysis<br><br>
 
-• KPI visualization<br><br>
+KPI Design & Reporting<br><br>
 
-• Workplace incident monitoring<br><br>
+Workplace Incident Monitoring<br><br>
 
-• Safety performance analysis<br><br>
+Safety Performance Analytics<br><br>
 
-• Interactive dashboard design
+Interactive Dashboard Design
 
 </p>
 
@@ -854,7 +874,7 @@ Key Focus Areas
         <div class="dashboard-card">
 
             <div class="loading-text">
-                Loading Interactive Dashboard...
+                Interactive Dashboard
             </div>
 
             <iframe
@@ -980,7 +1000,7 @@ Data Visualization Principles
     <!-- Footer -->
 
     <footer>
-        Created by Karthik Suresh • 2026
+        Designed & Developed by Karthik Suresh • 2026
     </footer>
 
     <!-- Scroll Reveal Animation -->
